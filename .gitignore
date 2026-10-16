@@ -1,0 +1,26 @@
+# R session artifacts
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# Compiled C++ output from Rcpp/sourceCpp
+*.so
+*.dll
+*.o
+*.a
+src/*.o
+src/*.so
+
+# RcppArmadillo / Rcpp cache
+.cache/
+
+# OS artifacts
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Output files (adjust if you want to commit results)
+*.csv
+*.xlsx
+*.RData
